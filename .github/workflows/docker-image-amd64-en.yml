@@ -20,10 +20,6 @@ jobs:
       - name: Check out the repo
         uses: actions/checkout@v3
 
-      - name: Save version info
-        run: |
-          git describe --tags > VERSION 
-
       - name: Translate
         run: |
           python ./i18n/translate.py --repository_path . --json_file_path ./i18n/en.json
@@ -38,7 +34,7 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: |
-            justsong/one-api-en
+            TonyHuang0711/ai-forward
 
       - name: Build and push Docker images
         uses: docker/build-push-action@v3
