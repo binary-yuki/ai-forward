@@ -38,7 +38,7 @@ const Footer = () => {
         ) : (
           <div className='custom-footer'>
             <a
-              href='https://github.com/songquanpeng/one-api'
+              href='https://openai.tzpro.xyz'
               target='_blank'
             >
               ai-forward {process.env.REACT_APP_VERSION}{' '}
