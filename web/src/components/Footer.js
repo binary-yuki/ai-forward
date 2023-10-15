@@ -41,15 +41,15 @@ const Footer = () => {
               href='https://github.com/songquanpeng/one-api'
               target='_blank'
             >
-              {systemName} {process.env.REACT_APP_VERSION}{' '}
+              ai-forward {process.env.REACT_APP_VERSION}{' '}
             </a>
-            由{' '}
-            <a href='https://github.com/songquanpeng' target='_blank'>
-              JustSong
+            Powered by{' '}
+            <a href='https://github.com/TonyHuang0711' target='_blank'>
+              akkk
             </a>{' '}
-            构建，源代码遵循{' '}
-            <a href='https://opensource.org/licenses/mit-license.php'>
-              MIT 协议
+            ©️Copyrights akkk 2023-today{' '}
+            <a href='/'>
+              tzpro All rights reserved.
             </a>
           </div>
         )}
