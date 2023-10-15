@@ -34,7 +34,7 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: |
-            TonyHuang0711/ai-forward
+            akkk1234/ai-forward
 
       - name: Build and push Docker images
         uses: docker/build-push-action@v3
